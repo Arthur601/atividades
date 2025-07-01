@@ -1,7 +1,6 @@
-numero = int(input("qual número da tabuada?: "))
-numero_inicio = int(input("qual número começa?: "))
-numero_fim = int(input("qual número final?: "))
+numero = int(input("Digite um número: "))
 
-while numero_inicio <= numero_fim:
-   print(f"{numero_inicio} x {numero} = {numero_inicio * numero}")
-   numero_inicio += 1
+if numero % 2 == 0:
+    print(f"{numero} é par")
+else:
+    print(f"{numero} é ímpar")
